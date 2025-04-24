@@ -12,8 +12,7 @@ export default function Home() {
 
   return (
     <div>
-      <button onClick={() => navigate("login")} style={{backgroundColor: "skyblue"}}>Go to the Login Page</button>
-      <Link href="/colors">Colors</Link>
+      <h1>Home</h1>
     </div>
   );
 }
